@@ -1,0 +1,27 @@
+body{
+    background: url('bg.jpg');
+    background-size: cover;
+}
+
+canvas{
+    background-color: whitesmoke;
+    border: 2px ridge black;
+    border-radius: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 4px 4px 20px greenyellow;
+    }
+
+    to{
+        box-shadow: 4px 4px 20px cyan;
+    }
+}
+
+#header{
+    width: 100%;
+}
